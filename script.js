@@ -27,7 +27,12 @@ function solvePuzzle(input) {
     // Replace the following lines with code for your solution!
     for (var i = 0; i < numbers.length; i++) {
         var first = numbers[i];
-        for (var; )
+        for (var i = 0; i < numbers.length; i++) {
+            var second = numbers[i]
+            if (first + second == 2020){
+                result = first * second;
+            } 
+        }
     }
     // Return your solution value (adjust this prompt as needed)
     return `Puzzle solution: ${result}`;
